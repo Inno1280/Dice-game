@@ -1,0 +1,73 @@
+body{
+    height: 100vh;
+    background-color: black;
+    margin: 0px;  
+}
+
+h1{
+   
+    margin-left: 5%;   
+    display: flex;
+    justify-content: space-around;  
+    font-family: fondamento; 
+    font-weight: 900;  
+    font-size: 7rem;  
+    font-style: italic;
+    color: whitesmoke;
+    text-shadow: 4px 4px 4px  rgb(193, 0, 0);  
+    margin: 0px; 
+   border-bottom: 0.5px solid whitesmoke;
+} 
+
+p{
+    color: whitesmoke; 
+    font-family: poppins;
+    font-size: 3em;
+    padding: 0px; 
+    margin: 0px;  
+
+}
+
+h2{
+    color: orange;
+    font-family: chonburi; 
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;  
+    font-weight: 900;  
+    text-shadow: 2px 2px 2px  rgb(194, 194, 194); 
+    padding: 0px;
+    
+
+}
+
+.players-dice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.announce{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.player1 , .player2{  
+   
+    display: flex;
+    flex-direction: column; align-items: center;
+}
+
+footer{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: poppins;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center; 
+    border-top: 0.5px solid rgb(65, 65, 65);
+}
